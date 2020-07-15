@@ -20,7 +20,6 @@ def get_city():
                  '\nWould you like to see data for Chicago (CH), New York (NY), or Washington (WA)?\n')
 
     city = city.lower()
-
     while True:
         if city == "ny" or city == "new york":
             print('\nYou chose New York City! We\'re going to explore its bikeshare data\n')
